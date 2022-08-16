@@ -29,26 +29,26 @@ console.log(`Number of accepted pears and apples is warehouse is ${wareHouse(pea
 
 // payment terminal//
 
-// const terminal = {
-//     name: "Giorgi"
-// }
+const terminal = {
+    name: "Giorgi"
+}
 
-// let userName = prompt("Enter your name")
+let userName = prompt("Enter your name")
 
-// if (userName == terminal.name) {
-//     console.log(`hello ${userName}`)
-// } else {
-//     console.log("there is no such name")
-// }
+if (userName == terminal.name) {
+    console.log(`hello ${userName}`)
+} else {
+    console.log("there is no such name")
+}
 
 
-//function for calculating the type of argument//
+// function for calculating the type of argument//
 
-// function type(value) {
-//     console.log(typeof (value))
-// }
+function type(value) {
+    console.log(typeof (value))
+}
 
-// type(true);
+type(true);
 
 
 //prime number//
